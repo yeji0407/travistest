@@ -1,0 +1,10 @@
+language: cpp
+sudo: required
+dist: bionic
+compiler:
+- gcc
+os:
+- linux
+
+script:
+- sudo apt-get update -qq
